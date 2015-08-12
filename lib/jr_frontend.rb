@@ -1,5 +1,10 @@
 require "jr_frontend/version"
 
 module JrFrontend
-  # Your code goes here...
+
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
+
 end
