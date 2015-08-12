@@ -1,0 +1,11 @@
+@mixin rounded-button($radius){
+  cursor: pointer;
+  border-radius: $radius;
+  text-align: center;
+}
+
+@mixin vertically-centered-element{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

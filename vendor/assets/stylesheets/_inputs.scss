@@ -1,0 +1,8 @@
+input[type=text].jr-highlighted{
+  outline: none;
+  transition: all, 0.3s, ease-in-out;
+  &:focus {
+    border: 2px solid lime;
+    box-shadow: 0 0 5px lime;
+  }
+}
